@@ -1,0 +1,7 @@
+{
+  "name": "IonGMITW",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

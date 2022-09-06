@@ -1,0 +1,15 @@
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.video-wrap {
+    position: relative;
+    padding-top: 35vh /* Player ratio: 100 / (1280 / 720) */
+}
+
+.video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

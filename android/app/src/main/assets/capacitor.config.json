@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "IonGMITW",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

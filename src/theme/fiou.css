@@ -1,0 +1,138 @@
+/*
+====================================================
+= Grid
+====================================================
+*/
+
+:root {
+  --app-color-white: white;
+}
+
+.flex-hStack {
+  display: flex;
+  width: 100%;
+}
+
+.flex-vStack {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-vh-center {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-strech {
+  align-items: stretch;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-0 {
+  flex: 0;
+}
+
+.flex-g1 {
+  flex-grow: 1;
+}
+
+.flex-s1 {
+  flex-shrink: 1;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-white {
+  background: var(--app-color-white);
+}
+
+.txt-white {
+  color: var(--app-color-white);
+}
+
+.bg-black {
+  background: black;
+}
+
+.txt-black {
+  color: black;
+}
+
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.video-wrap {
+  position: relative;
+  padding-top: 35vh /* Player ratio: 100 / (1280 / 720) */
+}
+
+.video-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
